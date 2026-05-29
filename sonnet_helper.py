@@ -86,6 +86,7 @@ def load_sonnet_mdf(file_path):
                                 l.startswith("%")
                                 or l.startswith("#")
                                 or l.startswith("!")
+                                or l.startswith("REM")
                             )
                         ]
 
